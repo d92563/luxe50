@@ -44,18 +44,6 @@ header ul a {
     color: #fff;
 }
 
-/*header ul a.download {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    transition: background-color 0.25s ease-in-out,border-color 0.25s ease-in-out,color 0.25s ease-in-out;
-    margin-right: 10px;
-}
-header ul a.download:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: #fff;
-}*/
-
 header ul a.learnMore {
     display: inline-block;
     cursor: pointer;
@@ -108,10 +96,6 @@ header ul a.learnMore:hover {
         text-decoration: none;
         line-height: 43px;
     }
-   /* header ul a.download {
-        margin: 0;
-        margin-bottom: 20px;
-    }*/
 }
 
 /* Nav CSS */
@@ -404,43 +388,6 @@ section#template div.row div.col h2 {
         display: inline-block;
     }
 }
-
-/* Download Section CSS 
-section#download {
-    padding: 75px 0;
-    text-align: center;
-}
-section#download p {
-    width: 500px;
-    display: inline-block;
-    margin-bottom: 25px;
-}
-section#download a {
-    height: 55px;
-    font-size: 25px;
-    padding: 0 15px;
-    text-decoration: none;
-    line-height: 53px;
-    color: #fff;
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid #4d2914;
-    background-color: #4d2914;
-    transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out;
-    margin-right: 10px;
-}
-section#download a:hover {
-    background-color: #2155ff;
-    border-color: #2155ff;
-}
-@media only screen and (max-width: 500px) {
-    section#download p {
-        width: 90%;
-    }
-    section#download h1.headerLine {
-        font-size: 32.5px;
-    }
-}*/
 
 /* Contact Section CSS */
 section#contact {
