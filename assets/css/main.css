@@ -32,10 +32,10 @@ header h1 {
     line-height: 80px;
     margin-bottom: 30px;
 }
-header ul {
+header div {
     height: 50px;
 }
-header ul a {
+header div a {
     height: 55px;
     font-size: 25px;
     padding: 0 15px;
@@ -44,13 +44,13 @@ header ul a {
     color: #fff;
 }
 
-header ul a.learnMore {
+header div a.learnMore {
     display: inline-block;
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.6);
     transition: background-color 0.25s ease-in-out,border-color 0.25s ease-in-out,color 0.25s ease-in-out;
 }
-header ul a.learnMore:hover {
+header div a.learnMore:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #fff;
 }
@@ -84,11 +84,11 @@ header ul a.learnMore:hover {
         font-size: 32.5px;
         line-height: 40px;
     }
-    header ul {
+    header div {
         margin-top: 30px;
         text-align: center;
     }
-    header ul a {
+    header div a {
         width: 70%;
         box-sizing: border-box;
         height: 45px;
@@ -125,11 +125,11 @@ nav a.brandName {
     font-size: 50px;
     line-height: 1;
 }
-nav ul {
+nav div {
     float: right;
     height: 50px;
 }
-nav ul a {
+nav div a {
     font-size: 17.5px;
     line-height: 50px;
     margin: 0 12.5px;
@@ -211,10 +211,10 @@ nav button.menuButton svg.closeIcon {
     body.activeNavLinks nav.nonTopNav {
         background-color: #fff;
     }
-    nav ul {
+    nav div {
         display: none;
     }
-    body.activeNavLinks nav ul {
+    body.activeNavLinks nav div {
         display: block !important;
         clear: both;
         overflow: auto;
@@ -222,7 +222,7 @@ nav button.menuButton svg.closeIcon {
         height: auto;
         margin-top: calc(((100vh - 280px - 75px) / 2));
     }
-    body.activeNavLinks nav ul a {
+    body.activeNavLinks nav div a {
         display: block;
         text-align: center;
         height: 70px;
@@ -246,10 +246,10 @@ nav button.menuButton svg.closeIcon {
         height: 40px;
         width: 40px;
     }
-    body.activeNavLinks nav ul {
+    body.activeNavLinks nav div {
         margin-top: calc(((100vh - 280px - 65px) / 2));
     }
-    body.activeNavLinks nav ul a {
+    body.activeNavLinks nav div a {
         height: 60px;
         font-size: 25px;
     }
@@ -458,26 +458,26 @@ footer p.copyright {
     width: calc(100% - 10px);
     text-align: center;
 }
-footer ul.links {
+footer div.links {
     text-align: center;
     overflow: auto;
     margin-bottom: 5px;
 }
-footer ul.links a {
+footer div.links a {
     text-decoration: none;
     height: 35px;
     width: 35px;
     padding: 7.5px 5px;
     display: inline-block;
 }
-footer ul.links a svg {
+footer div.links a svg {
     height: 100%;
     width: 100%;
 }
-footer ul.links a svg path {
+footer div.links a svg path {
     fill: #c7cbd4;
     transition: fill 0.15s ease-in-out;
 }
-footer ul.links a svg:hover path {
+footer div.links a svg:hover path {
     fill: #414f57;
 }
