@@ -10,7 +10,6 @@ body {
 }
 a {
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
 }
 
 /* Header CSS */
@@ -125,6 +124,7 @@ nav a.brandName {
     float: left;
     font-size: 50px;
     line-height: 1;
+    -webkit-tap-highlight-color: transparent;
 }
 nav div {
     float: right;
